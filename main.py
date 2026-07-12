@@ -2,27 +2,36 @@ print("=" * 40)
 print("🚀 Welcome to Freedom AI v0.1")
 print("=" * 40)
 
+def business_idea():
+    print("\n💡 Business Idea")
+    print("Look for repetitive tasks businesses do every day.")
+
+def daily_motivation():
+    print("\n🔥 Daily Motivation")
+    print("Small improvements every day become massive improvements over time.")
+
+def automation_idea():
+    print("\n🤖 Automation Idea")
+    print("Think of one task at work that someone repeats every single day.")
+
 print("1. Business Ideas")
 print("2. Daily Motivation")
 print("3. Automation Ideas")
 print("4. Exit")
 
 choice = input("\nChoose an option (1-4): ")
-
 if choice == "1":
-    print("\n💡 Business Idea:")
-    print("Create an AI assistant that automatically replies to customer emails.")
+    business_idea()
 
 elif choice == "2":
-    print("\n🔥 Daily Motivation:")
-    print("Small progress every day beats waiting for the perfect moment.")
+    daily_motivation()
 
 elif choice == "3":
-    print("\n🤖 Automation Idea:")
-    print("Build a bot that reminds customers about upcoming appointments.")
+    automation_idea()
 
 elif choice == "4":
     print("\n👋 Thanks for using Freedom AI!")
 
 else:
-    print("\n❌ Invalid option.")
+    print("\n❌ Invalid option. Please choose 1-4.")
+    
